@@ -1,0 +1,15 @@
+{
+  "name": "vitest-browser-coverage-leak",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage"
+  },
+  "devDependencies": {
+    "@vitest/browser-playwright": "4.1.12",
+    "@vitest/coverage-v8": "4.1.12",
+    "playwright": "1.64.1",
+    "vitest": "4.1.12"
+  }
+}
